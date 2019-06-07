@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite REST API" duration-ms="5763" started-at="2019-06-06T15:57:23Z" finished-at="2019-06-06T15:57:28Z">
+    <groups>
+    </groups>
+    <test name="REST API" duration-ms="5763" started-at="2019-06-06T15:57:23Z" finished-at="2019-06-06T15:57:28Z">
+      <class name="TestFramework.B_Basics_POST">
+        <test-method status="PASS" signature="createPlaceAPI()[pri:0, instance:TestFramework.B_Basics_POST@5e0826e7]" name="createPlaceAPI" duration-ms="418" started-at="2019-06-06T15:57:28Z" finished-at="2019-06-06T15:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPlaceAPI -->
+      </class> <!-- TestFramework.B_Basics_POST -->
+      <class name="TestFramework.H_Jira_3_Update_Comment">
+        <test-method status="PASS" signature="JiraAPIUpdate()[pri:0, instance:TestFramework.H_Jira_3_Update_Comment@15ff3e9e]" name="JiraAPIUpdate" duration-ms="370" started-at="2019-06-06T15:57:27Z" finished-at="2019-06-06T15:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JiraAPIUpdate -->
+      </class> <!-- TestFramework.H_Jira_3_Update_Comment -->
+      <class name="TestFramework.F_Jira_1_Add_Issue">
+        <test-method status="PASS" signature="JiraAPICreateIssue()[pri:0, instance:TestFramework.F_Jira_1_Add_Issue@1a451d4d]" name="JiraAPICreateIssue" duration-ms="3141" started-at="2019-06-06T15:57:23Z" finished-at="2019-06-06T15:57:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JiraAPICreateIssue -->
+      </class> <!-- TestFramework.F_Jira_1_Add_Issue -->
+      <class name="TestFramework.D_Basics_post_XML_file">
+        <test-method status="PASS" signature="postDataXML()[pri:0, instance:TestFramework.D_Basics_post_XML_file@6dc17b83]" name="postDataXML" duration-ms="575" started-at="2019-06-06T15:57:27Z" finished-at="2019-06-06T15:57:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postDataXML -->
+      </class> <!-- TestFramework.D_Basics_post_XML_file -->
+      <class name="TestFramework.C_POST_Add_and_Delete_Test_Centralized">
+        <test-method status="PASS" signature="getDataProp()[pri:0, instance:TestFramework.C_POST_Add_and_Delete_Test_Centralized@7fa98a66]" name="getDataProp" is-config="true" duration-ms="12" started-at="2019-06-06T15:57:23Z" finished-at="2019-06-06T15:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataProp -->
+        <test-method status="PASS" signature="getDataProp()[pri:0, instance:TestFramework.F_Jira_1_Add_Issue@1a451d4d]" name="getDataProp" is-config="true" duration-ms="0" started-at="2019-06-06T15:57:23Z" finished-at="2019-06-06T15:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataProp -->
+        <test-method status="PASS" signature="getDataProp()[pri:0, instance:TestFramework.H_Jira_3_Update_Comment@15ff3e9e]" name="getDataProp" is-config="true" duration-ms="1" started-at="2019-06-06T15:57:23Z" finished-at="2019-06-06T15:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataProp -->
+        <test-method status="PASS" signature="getDataProp()[pri:0, instance:TestFramework.G_Jira_2_Add_Comment@5fdcaa40]" name="getDataProp" is-config="true" duration-ms="0" started-at="2019-06-06T15:57:23Z" finished-at="2019-06-06T15:57:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDataProp -->
+        <test-method status="PASS" signature="AddandDeletePlace()[pri:0, instance:TestFramework.C_POST_Add_and_Delete_Test_Centralized@7fa98a66]" name="AddandDeletePlace" duration-ms="1030" started-at="2019-06-06T15:57:26Z" finished-at="2019-06-06T15:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddandDeletePlace -->
+      </class> <!-- TestFramework.C_POST_Add_and_Delete_Test_Centralized -->
+      <class name="TestFramework.G_Jira_2_Add_Comment">
+        <test-method status="PASS" signature="JiraAPICreateComment()[pri:0, instance:TestFramework.G_Jira_2_Add_Comment@5fdcaa40]" name="JiraAPICreateComment" duration-ms="187" started-at="2019-06-06T15:57:27Z" finished-at="2019-06-06T15:57:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JiraAPICreateComment -->
+      </class> <!-- TestFramework.G_Jira_2_Add_Comment -->
+    </test> <!-- REST API -->
+  </suite> <!-- Suite REST API -->
+</testng-results>

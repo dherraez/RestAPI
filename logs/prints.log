@@ -1,0 +1,18 @@
+13:33:06.309 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Host Information http://216.10.245.166
+13:33:06.848 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Response is: {"status":"OK","place_id":"51d699413fe946b5fd782be7856d0316","scope":"APP","reference":"594800487c798136ba826fb2ee92e7a2594800487c798136ba826fb2ee92e7a2","id":"594800487c798136ba826fb2ee92e7a2"}
+13:33:06.907 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Place_Id is: 51d699413fe946b5fd782be7856d0316
+2019-06-06 13:48:57.864 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Host Information http://216.10.245.166
+2019-06-06 13:48:58.381 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Response is: {"status":"OK","place_id":"047b2f5378ce84b7343335e3090c7c67","scope":"APP","reference":"a2932280b48f8e269a78a3ee18435a5da2932280b48f8e269a78a3ee18435a5d","id":"a2932280b48f8e269a78a3ee18435a5d"}
+2019-06-06 13:48:58.397 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Place_Id is: 047b2f5378ce84b7343335e3090c7c67
+2019-06-06 13:52:37.635 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Host Information http://216.10.245.166
+2019-06-06 13:52:38.277 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Response is: {"status":"OK","place_id":"7bd769024a4a3eb635f3e538f20ff424","scope":"APP","reference":"e32ded4de879d46f6ae0a6bc28a1441de32ded4de879d46f6ae0a6bc28a1441d","id":"e32ded4de879d46f6ae0a6bc28a1441d"}
+2019-06-06 13:52:38.300 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Place_Id is: 7bd769024a4a3eb635f3e538f20ff424
+2019-06-06 15:22:04.719 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Host Information http://216.10.245.166
+2019-06-06 15:22:05.230 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Response is: {"status":"OK","place_id":"f1e670482dc3dd40bad31b4116b9b372","scope":"APP","reference":"83af3ede61d8424655dd680cee349cfd83af3ede61d8424655dd680cee349cfd","id":"83af3ede61d8424655dd680cee349cfd"}
+2019-06-06 15:22:05.243 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Place_Id is: f1e670482dc3dd40bad31b4116b9b372
+2019-06-06 15:48:03.572 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Host Information http://216.10.245.166
+2019-06-06 15:48:06.774 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Response is: {"status":"OK","place_id":"26559ea4a983f1c1db125c5b5a97d07d","scope":"APP","reference":"c1cb160dbff2fc752adae610e85d563fc1cb160dbff2fc752adae610e85d563f","id":"c1cb160dbff2fc752adae610e85d563f"}
+2019-06-06 15:48:06.823 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Place_Id is: 26559ea4a983f1c1db125c5b5a97d07d
+2019-06-06 17:57:26.202 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Host Information http://216.10.245.166
+2019-06-06 17:57:26.765 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Response is: {"status":"OK","place_id":"e1292b2242c210901bac492039288176","scope":"APP","reference":"72a650fb16ce4b6dccf8d14ae9762df572a650fb16ce4b6dccf8d14ae9762df5","id":"72a650fb16ce4b6dccf8d14ae9762df5"}
+2019-06-06 17:57:26.782 [main] INFO  TestFramework.C_POST_Add_and_Delete_Test_Centralized - Place_Id is: e1292b2242c210901bac492039288176

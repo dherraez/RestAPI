@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite_REST_API">
+              <span class="suite-name border-passed">Suite REST API</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite_REST_API">
+                    <span>C:\Users\dherraez\Automation\Projects\RESTAssuredTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite_REST_API">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite_REST_API">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite_REST_API">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite_REST_API">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite_REST_API">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite_REST_API">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,   6 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite_REST_API" class="hide-methods passed suite-Suite_REST_API"> (hide)</a> <!-- hide-methods passed suite-Suite_REST_API -->
+                      <a href="#" panel-name="suite-Suite_REST_API" class="show-methods passed suite-Suite_REST_API"> (show)</a> <!-- show-methods passed suite-Suite_REST_API -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite_REST_API">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_REST_API" title="TestFramework.C_POST_Add_and_Delete_Test_Centralized" hash-for-method="AddandDeletePlace">AddandDeletePlace</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_REST_API" title="TestFramework.G_Jira_2_Add_Comment" hash-for-method="JiraAPICreateComment">JiraAPICreateComment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_REST_API" title="TestFramework.F_Jira_1_Add_Issue" hash-for-method="JiraAPICreateIssue">JiraAPICreateIssue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_REST_API" title="TestFramework.H_Jira_3_Update_Comment" hash-for-method="JiraAPIUpdate">JiraAPIUpdate</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_REST_API" title="TestFramework.B_Basics_POST" hash-for-method="createPlaceAPI">createPlaceAPI</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite_REST_API" title="TestFramework.D_Basics_post_XML_file" hash-for-method="postDataXML">postDataXML</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite_REST_API -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite_REST_API" class="panel Suite_REST_API">
+          <div class="suite-Suite_REST_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestFramework.C_POST_Add_and_Delete_Test_Centralized</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="AddandDeletePlace">
+                  </a> <!-- AddandDeletePlace -->
+                  <span class="method-name">AddandDeletePlace</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_REST_API-class-passed -->
+          <div class="suite-Suite_REST_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestFramework.B_Basics_POST</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createPlaceAPI">
+                  </a> <!-- createPlaceAPI -->
+                  <span class="method-name">createPlaceAPI</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_REST_API-class-passed -->
+          <div class="suite-Suite_REST_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestFramework.F_Jira_1_Add_Issue</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JiraAPICreateIssue">
+                  </a> <!-- JiraAPICreateIssue -->
+                  <span class="method-name">JiraAPICreateIssue</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_REST_API-class-passed -->
+          <div class="suite-Suite_REST_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestFramework.G_Jira_2_Add_Comment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JiraAPICreateComment">
+                  </a> <!-- JiraAPICreateComment -->
+                  <span class="method-name">JiraAPICreateComment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_REST_API-class-passed -->
+          <div class="suite-Suite_REST_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestFramework.H_Jira_3_Update_Comment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="JiraAPIUpdate">
+                  </a> <!-- JiraAPIUpdate -->
+                  <span class="method-name">JiraAPIUpdate</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_REST_API-class-passed -->
+          <div class="suite-Suite_REST_API-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">TestFramework.D_Basics_post_XML_file</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="postDataXML">
+                  </a> <!-- postDataXML -->
+                  <span class="method-name">postDataXML</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite_REST_API-class-passed -->
+        </div> <!-- panel Suite_REST_API -->
+        <div panel-name="test-xml-Suite_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\dherraez\Automation\Projects\RESTAssuredTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite REST API&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;resources.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;REST API&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;TestFramework.F_Jira_1_Add_Issue&quot;/&gt;
+      &lt;class name=&quot;TestFramework.C_POST_Add_and_Delete_Test_Centralized&quot;/&gt;
+      &lt;class name=&quot;TestFramework.H_Jira_3_Update_Comment&quot;/&gt;
+      &lt;class name=&quot;TestFramework.G_Jira_2_Add_Comment&quot;/&gt;
+      &lt;class name=&quot;TestFramework.D_Basics_post_XML_file&quot;/&gt;
+      &lt;class name=&quot;TestFramework.B_Basics_POST&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- REST API --&gt;
+&lt;/suite&gt; &lt;!-- Suite REST API --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite REST API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">REST API (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite REST API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite REST API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite_REST_API');
+function tableData_Suite_REST_API() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'JiraAPICreateIssue')
+data.setCell(0, 2, 'TestFramework.F_Jira_1_Add_Issue')
+data.setCell(0, 3, 3513);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'AddandDeletePlace')
+data.setCell(1, 2, 'TestFramework.C_POST_Add_and_Delete_Test_Centralized')
+data.setCell(1, 3, 948);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'postDataXML')
+data.setCell(2, 2, 'TestFramework.D_Basics_post_XML_file')
+data.setCell(2, 3, 476);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'JiraAPIUpdate')
+data.setCell(3, 2, 'TestFramework.H_Jira_3_Update_Comment')
+data.setCell(3, 3, 470);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createPlaceAPI')
+data.setCell(4, 2, 'TestFramework.B_Basics_POST')
+data.setCell(4, 3, 391);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'JiraAPICreateComment')
+data.setCell(5, 2, 'TestFramework.G_Jira_2_Add_Comment')
+data.setCell(5, 3, 221);
+window.suiteTableData['Suite_REST_API']= { tableData: data, tableDiv: 'times-div-Suite_REST_API'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 seconds</span>
+              <div id="times-div-Suite_REST_API">
+              </div> <!-- times-div-Suite_REST_API -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite REST API</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite_REST_API" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestFramework.C_POST_Add_and_Delete_Test_Centralized</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getDataProp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestFramework.F_Jira_1_Add_Issue</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getDataProp</span>
+                <span class="method-start">12 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestFramework.G_Jira_2_Add_Comment</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getDataProp</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestFramework.H_Jira_3_Update_Comment</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">getDataProp</span>
+                <span class="method-start">14 ms</span>
+              </div> <!-- configuration-test before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestFramework.F_Jira_1_Add_Issue</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">JiraAPICreateIssue</span>
+                <span class="method-start">32 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestFramework.C_POST_Add_and_Delete_Test_Centralized</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">AddandDeletePlace</span>
+                <span class="method-start">3551 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestFramework.H_Jira_3_Update_Comment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">JiraAPIUpdate</span>
+                <span class="method-start">4505 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestFramework.G_Jira_2_Add_Comment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">JiraAPICreateComment</span>
+                <span class="method-start">4978 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestFramework.D_Basics_post_XML_file</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">postDataXML</span>
+                <span class="method-start">5201 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">TestFramework.B_Basics_POST</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">createPlaceAPI</span>
+                <span class="method-start">5684 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
