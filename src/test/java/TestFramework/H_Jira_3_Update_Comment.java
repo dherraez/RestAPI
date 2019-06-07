@@ -26,7 +26,7 @@ public class H_Jira_3_Update_Comment {
 	@BeforeTest
 	public void getDataProp() throws IOException {
 
-		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\env.propertie");
+		FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "\\env.properties");
 		prop.load(fis);
 	}
 
