@@ -32,7 +32,7 @@ public class H_Jira_3_Update_Comment {
 		RestAssured.baseURI = prop.getProperty("HOSTJIRA");
 		Response res = given().
 		header("Content-Type","application/json").
-		header("cookie", "JSESSIONID=" + reusableMethods.getSessionID()).
+		header("cookie", "JSESSIO=" + reusableMethods.getSessionID()).
 		body("{\r\n" + 
 				"    \"body\": \"Updated comment 18:50\"\r\n" + 
 				"}").
