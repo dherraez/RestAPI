@@ -8,14 +8,8 @@
 	<test thread-count="5" name="REST API">
 		<classes>
 			<class name="TestFramework.F_Jira_1_Add_Issue" />
-			<class
-				name="TestFramework.C_POST_Add_and_Delete_Test_Centralized" />
 			<class name="TestFramework.H_Jira_3_Update_Comment" />
 			<class name="TestFramework.G_Jira_2_Add_Comment" />
-			<!--<class name="TestFramework.A_Basics_Logs"/> -->
-			<class name="TestFramework.D_Basics_post_XML_file" />
-			<!--<class name="TestFramework.E_Basics_All_JSON_Nodes"/> -->
-			<class name="TestFramework.B_Basics_POST" />
 		</classes>
 	</test> <!-- REST API -->
 </suite> <!-- Suite REST API -->
